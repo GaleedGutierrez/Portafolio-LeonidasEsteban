@@ -213,6 +213,7 @@ figure {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 9px;
 }
 .form-email {
   margin-left: 20px;
@@ -222,7 +223,7 @@ figure {
   padding: 10px 20px 10px 25px;
   border-style: solid;
   border-radius: 5px;
-  background-image: url("../Desarrollo-web-portafolio/images/envelope.svg");
+  background-image: url("images/envelope.svg");
   background-size: 15px 15px;
   background-repeat: no-repeat;
   background-position-y: center;
@@ -249,16 +250,16 @@ figure {
   margin: 0 20px;
 }
 .social-link.twitter {
-  background-image: url("../Desarrollo-web-portafolio/images/twitter.svg");
+  background-image: url("images/twitter.svg");
 }
 .social-link.facebook {
-  background-image: url("../Desarrollo-web-portafolio/images/facebook.svg");
+  background-image: url("images/facebook.svg");
 }
 .social-link.github {
-  background-image: url("../Desarrollo-web-portafolio/images/github.svg");
+  background-image: url("images/github.svg");
 }
 .social-link.instagram {
-  background-image: url("../Desarrollo-web-portafolio/images/instagram.svg");
+  background-image: url("images/instagram.svg");
 }
 /* --------------------------- Fin de contacto */
 
@@ -271,7 +272,7 @@ figure {
 }
 .footer p {
   color: white;
-  padding: 5px 10px;
+  padding: 0px 10px;
 }
 .footer img {
   width: 80px;
@@ -292,4 +293,5 @@ figure {
   align-items: inherit;
   height: inherit;
   flex-wrap: inherit;
+  padding: inherit;
 }
