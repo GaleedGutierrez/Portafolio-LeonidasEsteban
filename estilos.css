@@ -1,0 +1,295 @@
+/* --------------------------- General */
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: normal;
+  /* font-style: italic; */
+}
+h1 {
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: -0.2px;
+  color: white;
+  margin: 0;
+  /* margin: 100px 150px 70px 30px; */
+  /* text-transform: uppercase;
+  text-decoration: underline; */
+}
+h1 strong {
+  color: #056fff;
+}
+h2 {
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 39.92px;
+}
+/* --------------------------- Fin de general */
+
+/* --------------------------- Comienzo de Header */
+.header {
+  background-color: #1d252c;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+figure {
+  margin: 0;
+  padding: 0;
+}
+.logo img {
+  height: 50px;
+}
+.header a {
+  color: white;
+  text-decoration: none;
+}
+.menu {
+  height: inherit;
+}
+.header ol {
+  display: flex;
+  height: inherit;
+}
+.header ol li {
+  height: inherit;
+}
+.header a {
+  display: flex;
+  align-items: center;
+  height: inherit;
+  padding: 0 10px;
+}
+/* --------------------------- Fin de header */
+
+/* --------------------------- Comienzo de hero */
+.hero {
+  height: 300px;
+  /* background-image: url("../Desarrollo-web-portafolio/images/hero.jpg"); */
+  background-color: #1b2127;
+  /* background-size: 500px 300px;
+  background-repeat: no-repeat;
+  background-position-x: right; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.hero h1 {
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+}
+.hero-image {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+}
+/* --------------------------- Fin de hero */
+
+/* --------------------------- Comienzo de porfolio*/
+.project {
+  /* border: 10px solid red;
+  border-right: 10px solid green;
+  border-left: 10px solid brown;
+  border-bottom: 10px solid pink; */
+  /* border-top-color: red;
+  border-top-width: 15px;
+  border-top-style: solid; */
+  border: 1px solid gray;
+  border-radius: 10px;
+  /* border-top-left-radius: 50px; */
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.project-title {
+  font-size: 30px;
+  margin: 0px 0px 10px 0px;
+}
+.portfolio {
+  background: #fafafa;
+  padding: 20px 20px 0px 20px;
+}
+.project-details {
+  width: 500px;
+  background: white;
+}
+.project-course {
+  margin: 10px 0px;
+}
+.project-date {
+  margin: 10px 0px;
+}
+.project strong {
+  font-family: "Fjalla One", sans-serif;
+}
+.project-description {
+  font-size: 20px;
+}
+.project-imageContainer {
+  width: 500px;
+}
+.proyect-url {
+  margin: 10px 0px;
+}
+/* --------------------------- Fin de porfolio */
+
+/* --------------------------- Comienzo de evento */
+.event-list-title {
+  margin: 0;
+  padding: 25px 25px 15px 25px;
+}
+.event-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.event {
+  margin: 10px;
+  width: 480px;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background-color: #f4fbff;
+}
+.event img {
+  width: 480px;
+  height: 200px;
+  object-fit: cover;
+}
+.event-detail {
+  margin: 20px 40px;
+  margin-top: -40px;
+  padding: 20px;
+  position: relative;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 0 10px #545454;
+}
+.event-description {
+  text-align: left;
+}
+.event-url {
+  border: 1px solid;
+  text-decoration: none;
+  padding: 5px 20px;
+  text-decoration: none;
+  color: #056fff;
+  border-radius: 5px;
+}
+
+/* --------------------------- Fin de evento */
+
+/* --------------------------- Comienzo de contacto */
+
+.contact {
+  background-color: #056fff;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form-email {
+  margin-left: 20px;
+}
+.form-email input {
+  border-color: gray;
+  padding: 10px 20px 10px 25px;
+  border-style: solid;
+  border-radius: 5px;
+  background-image: url("../Desarrollo-web-portafolio/images/envelope.svg");
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+}
+.form-email button {
+  display: block;
+  margin-top: 10px;
+  background: transparent;
+  color: white;
+  padding: 10px 0px;
+  border-radius: 5px;
+  width: 100px;
+  /* margin: 10px auto; */
+}
+.form-email h3 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.social-link {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+  margin: 0 20px;
+}
+.social-link.twitter {
+  background-image: url("../Desarrollo-web-portafolio/images/twitter.svg");
+}
+.social-link.facebook {
+  background-image: url("../Desarrollo-web-portafolio/images/facebook.svg");
+}
+.social-link.github {
+  background-image: url("../Desarrollo-web-portafolio/images/github.svg");
+}
+.social-link.instagram {
+  background-image: url("../Desarrollo-web-portafolio/images/instagram.svg");
+}
+/* --------------------------- Fin de contacto */
+
+/* --------------------------- Comienzo del footer */
+.footer {
+  background-color: #1d252c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer p {
+  color: white;
+  padding: 5px 10px;
+}
+.footer img {
+  width: 80px;
+  vertical-align: middle;
+  padding: 0 10px;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+/* --------------------------- Fin del footer */
+.container {
+  /* border: 1px solid red; */
+  width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
