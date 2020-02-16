@@ -292,5 +292,5 @@ figure {
   align-items: inherit;
   height: inherit;
   flex-wrap: inherit;
-  padding: inherit;
+  padding-bottom: inherit;
 }
